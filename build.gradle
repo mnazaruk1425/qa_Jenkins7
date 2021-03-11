@@ -34,6 +34,6 @@ test{
 
  task positive_test(type: Test) {
     useJUnitPlatform {
-        includeTags 'web'
+        includeTags 'positive'
     }}
 
