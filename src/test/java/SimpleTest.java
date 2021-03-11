@@ -10,9 +10,9 @@ public class SimpleTest {
 
     }
 
-    @Test
+  @Test
   void negativeTest(){
-        assertEquals(true,false);
+       assertEquals(true,false);
 
     }
 }
