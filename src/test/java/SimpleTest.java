@@ -1,3 +1,4 @@
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 
@@ -19,7 +20,8 @@ public class SimpleTest {
 
     }
     @Test
-    void successWithHamcrestTest(){
+    @DisplayName("Some positive test")
+    void successWithHamcrestAndStepsTest(){
         assertThat(true, is(true));
 
         //assertTrue(true);
@@ -27,7 +29,8 @@ public class SimpleTest {
     }
 
     @Test
-    void negativeWithHamcrestTest(){
+    @DisplayName("some negative test")
+    void negativeWithHamcrestAndStepsTest(){
         assertThat(true, is(false));
 
     }
